@@ -2,18 +2,10 @@
 	"version": 0,
 	"dependencies": [
 		{
-			"importpath": "github.com/Sirupsen/logrus",
-			"repository": "https://github.com/Sirupsen/logrus",
-			"vcs": "git",
-			"revision": "a283a10442df8dc09befd873fab202bf8a253d6a",
-			"branch": "master",
-			"notests": true
-		},
-		{
 			"importpath": "github.com/cenkalti/backoff",
 			"repository": "https://github.com/cenkalti/backoff",
 			"vcs": "git",
-			"revision": "cdf48bbc1eb78d1349cbda326a4a037f7ba565c6",
+			"revision": "309aa717adbf351e92864cbedf9cca0b769a4b5a",
 			"branch": "master",
 			"notests": true
 		},
@@ -21,7 +13,7 @@
 			"importpath": "github.com/davecgh/go-spew/spew",
 			"repository": "https://github.com/davecgh/go-spew",
 			"vcs": "git",
-			"revision": "5215b55f46b2b919f50a1df0eaa5886afe4e3b3d",
+			"revision": "ecdeabc65495df2dec95d7c4a4c3e021903035e5",
 			"branch": "master",
 			"path": "/spew",
 			"notests": true
@@ -30,24 +22,16 @@
 			"importpath": "github.com/garyburd/redigo/internal",
 			"repository": "https://github.com/garyburd/redigo",
 			"vcs": "git",
-			"revision": "b8dc90050f24c1a73a52f107f3f575be67b21b7c",
+			"revision": "5f161ed9cfbce31e5a0ec0b1c3c81087e2e9cbef",
 			"branch": "master",
 			"path": "/internal",
-			"notests": true
-		},
-		{
-			"importpath": "github.com/rcrowley/go-metrics",
-			"repository": "https://github.com/rcrowley/go-metrics",
-			"vcs": "git",
-			"revision": "cfa5a85e9f0abbdf1701b59082c36fc7bff10759",
-			"branch": "master",
 			"notests": true
 		},
 		{
 			"importpath": "github.com/garyburd/redigo/redis",
 			"repository": "https://github.com/garyburd/redigo",
 			"vcs": "git",
-			"revision": "b8dc90050f24c1a73a52f107f3f575be67b21b7c",
+			"revision": "5f161ed9cfbce31e5a0ec0b1c3c81087e2e9cbef",
 			"branch": "master",
 			"path": "/redis",
 			"notests": true
@@ -70,10 +54,26 @@
 			"notests": true
 		},
 		{
+			"importpath": "github.com/rcrowley/go-metrics",
+			"repository": "https://github.com/rcrowley/go-metrics",
+			"vcs": "git",
+			"revision": "e181e095bae94582363434144c61a9653aff6e50",
+			"branch": "master",
+			"notests": true
+		},
+		{
+			"importpath": "github.com/sirupsen/logrus",
+			"repository": "https://github.com/sirupsen/logrus",
+			"vcs": "git",
+			"revision": "d682213848ed68c0a260ca37d6dd5ace8423f5ba",
+			"branch": "master",
+			"notests": true
+		},
+		{
 			"importpath": "github.com/stretchr/testify/assert",
 			"repository": "https://github.com/stretchr/testify",
 			"vcs": "git",
-			"revision": "d77da356e56a7428ad25149ca77381849a6a5232",
+			"revision": "2aa2c176b9dab406a6970f6a55f513e8a8c8b18f",
 			"branch": "master",
 			"path": "/assert",
 			"notests": true
@@ -82,7 +82,7 @@
 			"importpath": "golang.org/x/net/context",
 			"repository": "https://go.googlesource.com/net",
 			"vcs": "git",
-			"revision": "075e191f18186a8ff2becaf64478e30f4545cdad",
+			"revision": "d866cfc389cec985d6fda2859936a575a55a3ab6",
 			"branch": "master",
 			"path": "/context",
 			"notests": true
@@ -91,7 +91,7 @@
 			"importpath": "golang.org/x/oauth2",
 			"repository": "https://go.googlesource.com/oauth2",
 			"vcs": "git",
-			"revision": "04e1573abc896e70388bd387a69753c378d46466",
+			"revision": "09bba2746c7d9b3181efc10fdb29c59c582f4eb1",
 			"branch": "master",
 			"notests": true
 		},
@@ -99,7 +99,7 @@
 			"importpath": "google.golang.org/api/compute/v1",
 			"repository": "https://code.googlesource.com/google-api-go-client",
 			"vcs": "git",
-			"revision": "518eda9a0920a55ffe7190db96fe8ed85a62e376",
+			"revision": "7219ace1c3535de1864b2706ea9397ad2d269f07",
 			"branch": "master",
 			"path": "/compute/v1",
 			"notests": true
@@ -108,7 +108,7 @@
 			"importpath": "google.golang.org/api/gensupport",
 			"repository": "https://code.googlesource.com/google-api-go-client",
 			"vcs": "git",
-			"revision": "518eda9a0920a55ffe7190db96fe8ed85a62e376",
+			"revision": "7219ace1c3535de1864b2706ea9397ad2d269f07",
 			"branch": "master",
 			"path": "/gensupport",
 			"notests": true
@@ -117,7 +117,7 @@
 			"importpath": "google.golang.org/api/googleapi",
 			"repository": "https://code.googlesource.com/google-api-go-client",
 			"vcs": "git",
-			"revision": "518eda9a0920a55ffe7190db96fe8ed85a62e376",
+			"revision": "7219ace1c3535de1864b2706ea9397ad2d269f07",
 			"branch": "master",
 			"path": "/googleapi",
 			"notests": true
@@ -126,7 +126,7 @@
 			"importpath": "google.golang.org/cloud/compute/metadata",
 			"repository": "https://code.googlesource.com/gocloud",
 			"vcs": "git",
-			"revision": "e73b38090281500e9ff73f27cecf04b0307fc487",
+			"revision": "d0a06290ecf1e8e0dabc6681ad354fc233d9d6ae",
 			"branch": "master",
 			"path": "/compute/metadata",
 			"notests": true
@@ -135,7 +135,7 @@
 			"importpath": "google.golang.org/cloud/internal",
 			"repository": "https://code.googlesource.com/gocloud",
 			"vcs": "git",
-			"revision": "e73b38090281500e9ff73f27cecf04b0307fc487",
+			"revision": "d0a06290ecf1e8e0dabc6681ad354fc233d9d6ae",
 			"branch": "master",
 			"path": "/internal",
 			"notests": true
@@ -144,7 +144,7 @@
 			"importpath": "gopkg.in/airbrake/gobrake.v2",
 			"repository": "https://gopkg.in/airbrake/gobrake.v2",
 			"vcs": "git",
-			"revision": "31c8ff1fb8b79a6947e6565e9a6df535f98a6b94",
+			"revision": "668876711219e8b0206e2994bf0a59d889c775aa",
 			"branch": "master",
 			"notests": true
 		},
@@ -152,7 +152,7 @@
 			"importpath": "gopkg.in/gemnasium/logrus-airbrake-hook.v2",
 			"repository": "https://gopkg.in/gemnasium/logrus-airbrake-hook.v2",
 			"vcs": "git",
-			"revision": "31e6fd4bd5a98d8ee7673d24bc54ec73c31810dd",
+			"revision": "e928b033a891c0175fb643d5aa0779e86325eb12",
 			"branch": "master",
 			"notests": true
 		},
@@ -160,7 +160,7 @@
 			"importpath": "gopkg.in/urfave/cli.v2",
 			"repository": "https://github.com/urfave/cli",
 			"vcs": "git",
-			"revision": "a095a5a89605c01901cebf5c889c68229b935225",
+			"revision": "b2bf3c5abeb90da407891aecd1df2c5a1f6170c1",
 			"branch": "v2",
 			"notests": true
 		}
